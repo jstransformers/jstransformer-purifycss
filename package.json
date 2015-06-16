@@ -1,7 +1,7 @@
 {
-  "name": "jstransformer-foo",
-  "version": "0.0.0",
-  "description": "Foo support for JSTransformers.",
+  "name": "jstransformer-purifycss",
+  "version": "0.0.1",
+  "description": "PurifyCSS support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
@@ -17,9 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-foo.git"
+    "url": "https://github.com/jstransformers/jstransformer-purifycss.git"
   },
-  "author": "Your Name <email@example.com>",
+  "author": "Rob Loach <robloach@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "extend": "^2.0.1",

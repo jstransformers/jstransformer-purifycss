@@ -1,0 +1,29 @@
+{
+  "name": "jstransformer-foo",
+  "version": "0.0.0",
+  "description": "Foo support for JSTransformers.",
+  "keywords": [
+    "jstransformer"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "test-jstransformer": "^1.0.0"
+  },
+  "scripts": {
+    "test": "test-jstransformer",
+    "coverage": "test-jstransformer coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-foo.git"
+  },
+  "author": "Your Name <email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "extend": "^2.0.1",
+    "promise": "^7.0.3",
+    "purify-css": "^1.0.13"
+  }
+}

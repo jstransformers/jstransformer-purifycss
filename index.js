@@ -2,6 +2,7 @@
 
 var purify = require('purify-css')
 var extend = require('extend')
+var Promise = require('promise')
 
 exports.name = 'purifycss'
 exports.outputFormat = 'css'

@@ -1,7 +1,7 @@
 'use strict'
 
 var purify = require('purify-css')
-var extend = require('extend')
+var extend = require('extend-shallow')
 var Promise = require('promise')
 
 exports.name = 'purifycss'

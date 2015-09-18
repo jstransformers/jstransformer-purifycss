@@ -4,7 +4,7 @@
 
 - Updated dependencies
 - Switched from [`extend`](http://npm.im/extend) to [`extend-shallow`](http://npm.im/extend-shallow)
-  - Merges the `locals` into `options` only by their key
+  - This shallow merges the `locals` into `options` rather than recursively merges
 
 ## v0.0.1: 2015-06-16
 

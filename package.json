@@ -1,11 +1,10 @@
 {
   "dependencies": {
     "extend-shallow": "^2.0.1",
-    "promise": "^7.0.3",
-    "purify-css": "^1.0.13"
+    "purify-css": "^1.1.9"
   },
   "name": "jstransformer-purifycss",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "PurifyCSS support for JSTransformers.",
   "keywords": [
     "jstransformer"
@@ -14,11 +13,16 @@
     "index.js"
   ],
   "devDependencies": {
-    "test-jstransformer": "^1.0.0"
+    "test-jstransformer": "^1.0.0",
+    "xo": "^0.17.1"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
-    "test": "test-jstransformer"
+    "test": "test-jstransformer",
+    "posttest": "xo --space --no-semicolon index.js"
+  },
+  "engines": {
+    "node": ">=4"
   },
   "repository": {
     "type": "git",

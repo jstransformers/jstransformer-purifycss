@@ -2,9 +2,9 @@
 
 var purify = require('purify-css')
 var extend = require('extend-shallow')
-var Promise = require('promise')
 
 exports.name = 'purifycss'
+exports.inputFormats = ['purifycss', 'purify-css']
 exports.outputFormat = 'css'
 
 var defaults = {
@@ -19,10 +19,10 @@ exports.render = function (str, options, locals) {
 }
 
 exports.renderAsync = function (str, options, locals) {
-  return new Promise(function (fulfill, reject) {
+  return new Promise(function (resolve) {
     options = extend({}, defaults, options, locals)
     var content = options.content
     delete options.content
-    purify(content, str, options, fulfill)
+    purify(content, str, options, resolve)
   })
 }

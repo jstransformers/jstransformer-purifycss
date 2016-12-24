@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.0: 2016-12-24
+
+- Updated Boilerplate
+- Added more inputFormats
+
 ## v0.1.0: 2015-09-10
 
 - Updated dependencies

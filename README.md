@@ -3,7 +3,7 @@
 [PurifyCSS](https://github.com/purifycss/purifycss) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-purifycss/master.svg)](https://travis-ci.org/jstransformers/jstransformer-purifycss)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-purifycss/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-purifycss?branch=master)
+[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-purifycss/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-purifycss)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-purifycss/master.svg)](http://david-dm.org/jstransformers/jstransformer-purifycss)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-purifycss.svg)](https://www.npmjs.org/package/jstransformer-purifycss)
 

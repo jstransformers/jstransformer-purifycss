@@ -1,5 +1,7 @@
 # jstransformer-purifycss
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-purifycss.svg)](https://greenkeeper.io/)
+
 [PurifyCSS](https://github.com/purifycss/purifycss) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-purifycss/master.svg)](https://travis-ci.org/jstransformers/jstransformer-purifycss)

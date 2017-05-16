@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "extend-shallow": "^2.0.1",
-    "purify-css": "^1.1.9"
+    "purify-css": "^1.2.1"
   },
   "name": "jstransformer-purifycss",
   "version": "0.2.0",

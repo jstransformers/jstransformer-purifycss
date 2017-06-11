@@ -19,7 +19,7 @@ exports.render = function (str, options, locals) {
 }
 
 exports.renderAsync = function (str, options, locals) {
-  return new Promise((resolve) => {
+  return new Promise(resolve => {
     options = extend({}, defaults, options, locals)
     const content = options.content
     delete options.content

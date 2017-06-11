@@ -1,27 +1,27 @@
 'use strict'
 
-var purify = require('purify-css')
-var extend = require('extend-shallow')
+const purify = require('purify-css')
+const extend = require('extend-shallow')
 
 exports.name = 'purifycss'
 exports.inputFormats = ['purifycss', 'purify-css']
 exports.outputFormat = 'css'
 
-var defaults = {
+const defaults = {
   content: ''
 }
 
 exports.render = function (str, options, locals) {
   options = extend({}, defaults, options, locals)
-  var content = options.content
+  const content = options.content
   delete options.content
   return purify(content, str, options)
 }
 
 exports.renderAsync = function (str, options, locals) {
-  return new Promise(function (resolve) {
+  return new Promise((resolve) => {
     options = extend({}, defaults, options, locals)
-    var content = options.content
+    const content = options.content
     delete options.content
     purify(content, str, options, resolve)
   })

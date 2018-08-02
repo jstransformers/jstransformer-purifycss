@@ -13,7 +13,7 @@ const defaults = {
 
 exports.render = function (str, options, locals) {
   options = extend({}, defaults, options, locals)
-  const content = options.content
+  const {content} = options
   delete options.content
   return purify(content, str, options)
 }
@@ -21,7 +21,7 @@ exports.render = function (str, options, locals) {
 exports.renderAsync = function (str, options, locals) {
   return new Promise(resolve => {
     options = extend({}, defaults, options, locals)
-    const content = options.content
+    const {content} = options
     delete options.content
     purify(content, str, options, resolve)
   })
